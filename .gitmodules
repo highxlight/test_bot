@@ -1,0 +1,3 @@
+[submodule "exchange-api"]
+	path = exchange-api
+	url = https://gitlab.com/tuofaninfo/exchange-api.git

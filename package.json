@@ -1,0 +1,43 @@
+{
+  "name": "fundingrate-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jason",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.15.0",
+    "@koa/cors": "^3.3.0",
+    "axios": "^0.27.2",
+    "calculate-correlation": "^1.2.3",
+    "ccxt": "^1.90.74",
+    "dayjs": "^1.11.3",
+    "decimal.js": "^10.3.1",
+    "dotenv": "^16.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "minimist": "^1.2.6",
+    "node-binance-api": "^0.13.1",
+    "moment": "^2.29.3",
+    "mongodb": "^4.7.0",
+    "node-cron": "^3.0.1",
+    "uuid": "^8.3.2",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "2.6.2",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  }
+}

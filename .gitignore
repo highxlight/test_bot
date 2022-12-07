@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.vscode/
+.env
+logs/
+/configForBot8.js
+/.idea/
+/forever_run_*.js
+/services/_jason/

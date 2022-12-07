@@ -1,0 +1,30 @@
+{
+  "name": "exchange-api",
+  "version": "0.1.0",
+  "description": "an api to handle api of different crypto-exchange including Binance, FTX, KuCoin, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test_binance": "node ./test/binance_test.js",
+    "test_zerox": "node ./test/zerox_test.js"
+  },
+  "keywords": [
+    "api",
+    "crypto-exchange"
+  ],
+  "author": "Hong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "decimal.js": "^10.3.1",
+    "log4js": "^6.4.0",
+    "moment": "^2.29.1",
+    "web3": "^1.6.0",
+    "websocket": "^1.0.34",
+    "zlib": "^1.0.5",
+    "ethers": "^5.6.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
